@@ -100,9 +100,11 @@
         }
 
         .wave {
-            position: relative;
-            height: 15vh; /* Height adjusts dynamically */
+            position: absolute;
+            top: -100px;
+            left: 0;
             width: 100%;
+            height: 100px;
             background: url("https://i.postimg.cc/prH1B2sC/ZAts699f-Imgur.png");
             background-size: 1000px 100px;
         }
