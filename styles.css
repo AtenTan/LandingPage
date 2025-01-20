@@ -1,7 +1,7 @@
 /* BODY DESIGN */
         @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;600&display=swap');
 
-        .body {
+        body {
             text-align: center;
             min-height: 100%;
             min-height: 100vh;
@@ -57,7 +57,7 @@
         
 /* FOOTER DESIGN */
 
-        .footer {
+        footer {
             display:flex;
             background-color: #a78f7c;
             position: fixed;
