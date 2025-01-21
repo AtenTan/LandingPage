@@ -70,7 +70,7 @@ footer {
 
 .menu {
     position: absolute;
-    bottom: 110px; /* Adjust as needed to place above the footer */
+    bottom: 100px; /* Adjust as needed to place above the footer */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
