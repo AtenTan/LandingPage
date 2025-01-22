@@ -125,7 +125,7 @@ footer {
     z-index: 1000; /* Ensure footer is above other elements */
 }
 
-.footer__text h3 {
+.footertext h3 {
     color: #967c67;
 }
 
