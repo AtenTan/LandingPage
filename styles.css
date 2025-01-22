@@ -62,7 +62,7 @@ body {
 /* MENU DESIGN */
 .menu {
     position: fixed; /* Change to fixed */
-    bottom: 150px; /* Adjust as needed to place above the footer */
+    bottom: 350px; /* Adjust as needed to place above the footer */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -70,8 +70,8 @@ body {
     list-style: none;
     text-align: center;
     padding: 10px 0;
-    margin: 20px 0; /* Add margin to create space between buttons and menu */
-    height: auto;
+    margin: 0;
+    height: 10vh;
     box-sizing: border-box;
     z-index: 999; /* Ensure menu is above other elements but below footer */
 }
