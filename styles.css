@@ -61,8 +61,8 @@ body {
 
 /* MENU DESIGN */
 .menu {
-    position: fixed; /* Change to fixed */
-    bottom: 150px; /* Adjust as needed to place above the footer */
+    position: relative; /* Change to relative */
+    bottom: 0; /* Adjust as needed to place above the footer */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -70,8 +70,8 @@ body {
     list-style: none;
     text-align: center;
     padding: 10px 0;
-    margin: 0;
-    height: 10vh;
+    margin: 20px 0; /* Add margin to create space between buttons and menu */
+    height: auto;
     box-sizing: border-box;
     z-index: 999; /* Ensure menu is above other elements but below footer */
 }
@@ -103,7 +103,7 @@ body {
 
 @media (max-width: 768px) {
     .menu {
-        bottom: 40px; /* Adjust as needed for smaller screens */
+        bottom: 0; /* Adjust as needed for smaller screens */
     }
 
     .menu__link {
@@ -113,7 +113,7 @@ body {
 
 @media (max-width: 480px) {
     .menu {
-        bottom: 30px; /* Adjust as needed for smaller screens */
+        bottom: 0; /* Adjust as needed for smaller screens */
     }
 
     .menu__link {
