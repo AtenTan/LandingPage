@@ -184,8 +184,8 @@ footer {
     }
 
     .menu {
-        flex-direction: column;
-        padding: 10px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
     }
     .menu__item {
         margin-bottom: 10px;
@@ -207,8 +207,8 @@ footer {
     }
 
     .menu {
-        flex-direction: column;
-        padding: 10px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
     }
     .menu__item {
         margin-bottom: 10px;
