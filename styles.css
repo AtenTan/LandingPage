@@ -80,16 +80,6 @@ body {
 }
 
 .menu__item img {
-    width: 20px; /* Set the width of the icon */
-    height: 20px; /* Set the height of the icon */
-    margin-right: 10px; /* Add some space between the icon and the text */
-}
-
-.menu__item:hover {
-    background-color: ;
-}
-
-.menu__item img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
