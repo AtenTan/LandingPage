@@ -128,6 +128,7 @@ footer {
 .footertext h3 {
     font-size: 17px;
     color: #634c3a;
+    font-weight: 0;
 }
 
 .wave {
@@ -209,7 +210,7 @@ footer {
     .menu {
         flex-wrap: nowrap;
         overflow-x: auto;
-        padding: 10px;
+        padding: 5px;
     }
     .menu__item {
         margin-bottom: 10px;
@@ -236,7 +237,7 @@ footer {
     .menu {
         flex-wrap: nowrap;
         overflow-x: auto;
-        padding: 10px;
+        padding: 5px;
     }
     .menu__item {
         margin-bottom: 10px;
