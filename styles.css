@@ -13,8 +13,8 @@ body {
     background: linear-gradient(180deg, #fdfcfb 20%, #e2d1c3 100%);
     padding: 0 10px;
     box-sizing: border-box;
-    overflow-y: auto; /* Add this line */
-    overflow-x: auto; /* Add this line */
+    overflow-y: hidden; /* Add this line */
+    overflow-x: hidden; /* Add this line */
 }
 
 .message h1 {
