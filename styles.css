@@ -78,6 +78,13 @@ body {
     position: relative;
 }
 
+.menu__item img {
+    width: 20px; /* Set the width of the icon */
+    height: 20px; /* Set the height of the icon */
+    margin-right: 10px; /* Add some space between the icon and the text */
+}
+
+
 .menu__link {
     font-size: 20px;
     color: #000000;
