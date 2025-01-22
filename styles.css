@@ -221,7 +221,12 @@ footer {
     .menu__item img {
         top: 30px; /* Adjust the top property when the screen is narrow */
     }
+    
+    .menu__link {
+        font-size: 16px;
+    }
 }
+
 
 @media (max-width: 480px) {
     .message h1 {
@@ -248,5 +253,9 @@ footer {
     }
     .menu__item img {
         top: 30px; /* Adjust the top property when the screen is narrow */
+    }
+
+    .menu__link {
+        font-size: 14px;
     }
 }
