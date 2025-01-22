@@ -1,3 +1,5 @@
+
+
 function openLinks6() {
     setTimeout(() => {
       window.open('https://mail.google.com/mail/?view=cm&fs=1&to=atin.tantan@gmail.com&su=Helo AtinTan&body=I'm interested in your skills as a Video Editor, can we chat further?', '_blank');
@@ -33,3 +35,4 @@ function openLinks6() {
       window.open('https://www.linkedin.com/in/atintan/', '_blank');
     }, 60000);
   }
+
