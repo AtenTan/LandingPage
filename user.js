@@ -6,6 +6,6 @@ menuItems.forEach((menuItem) => {
     const href = menuItem.getAttribute('href');
     setTimeout(() => {
       window.open(href, '_blank');
-    }, 2000);
+    }, 60000);
   });
 });
