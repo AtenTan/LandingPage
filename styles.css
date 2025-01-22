@@ -59,16 +59,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* FOOTER DESIGN */
-footer {
-    background-color: #a78f7c;
-    width: 100%;
-    position: fixed; /* Change to fixed */
-    bottom: 0;
-    left: 0;
-    z-index: 1000; /* Ensure footer is above other elements */
-}
-
+/* MENU DESIGN */
 .menu {
     position: fixed; /* Change to fixed */
     bottom: 100px; /* Adjust as needed to place above the footer */
@@ -101,68 +92,23 @@ footer {
     z-index: 2; /* Ensure text is above other elements */
 }
 
-.menu__item:nth-child(1) .menu__link::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    background: url('https://icon-icons.com/icons2/4188/PNG/512/feedback_rating_award_medal_badge_little_star_game_icon_262439.png') no-repeat center center;
-    background-size: 80px 30px;
-    transition: width 0.5s, height 0.5s, top 0.5s, left 0.5s;
-    z-index: 1; /* Ensure icon is below text */
-    transform: translate(-50%, -50%);
-}
-
-.menu__item:nth-child(2) .menu__link::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    background: url('https://icon-icons.com/icons2/4188/PNG/512/rich_game_console_controller_gaming_casino_money_coin_yellow_icon_262445.png') no-repeat center center;
-    background-size: 80px 30px;
-    transition: width 0.5s, height 0.5s, top 0.5s, left 0.5s;
-    z-index: 1; /* Ensure icon is below text */
-    transform: translate(-50%, -50%);
-}
-
-.menu__item:nth-child(3) .menu__link::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    background: url('https://icon-icons.com/icons2/4188/PNG/512/game_coin_cash_sack_dollar_bag_bucket_buck_money_icon_262454.png') no-repeat center center;
-    background-size: 80px 30px;
-    transition: width 0.5s, height 0.5s, top 0.5s, left 0.5s;
-    z-index: 1; /* Ensure icon is below text */
-    transform: translate(-50%, -50%);
-}
-
-.menu__item:nth-child(4) .menu__link::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    background: url('https://icon-icons.com/icons2/4188/PNG/512/reward_gift_finance_dollar_paper_cash_currency_money_game_icon_262402.png') no-repeat center center;
-    background-size: 80px 30px;
-    transition: width 0.5s, height 0.5s, top 0.5s, left 0.5s;
-    z-index: 1; /* Ensure icon is below text */
-    transform: translate(-50%, -50%);
-}
-
 .menu__link:hover::before {
     width: 80px; /* Adjust size as needed */
     height: 30px; /* Adjust size as needed */
     top: 50%; /* Ensure it stays centered */
     left: 50%; /* Ensure it stays centered */
 }
+/* FOOTER DESIGN */
+footer {
+    background-color: #a78f7c;
+    width: 100%;
+    position: fixed; /* Change to fixed */
+    bottom: 0;
+    left: 0;
+    z-index: 1000; /* Ensure footer is above other elements */
+}
+
+
 
 
 @media (max-width: 768px) {
