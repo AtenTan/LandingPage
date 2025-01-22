@@ -86,27 +86,19 @@ body {
 }
 
 .menu__item:hover {
-    background-color: #ffffff;
+    background-color: ;
 }
 
-.menu__item::before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+.menu__item img {
     width: 20px;
     height: 20px;
-    background-image: url("logo.png"); /* replace with your logo image */
-    background-size: cover;
-    opacity: 0;
+    margin-right: 10px;
     transition: all 0.3s ease;
 }
 
-.menu__item:hover::before {
-    top: 0;
+.menu__item:hover img {
+    transform: translateY(-100%);
     opacity: 1;
-    transform: translateX(-50%) translateY(-100%);
 }
 
 .menu__link {
