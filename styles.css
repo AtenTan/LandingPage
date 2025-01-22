@@ -64,7 +64,7 @@ body {
 /* MENU DESIGN */
 .menu {
     position: relative; /* Change to relative */
-    margin-top: 20px; /* Adjust as needed to place below the buttons */
+
     display: flex;
     justify-content: center;
     align-items: center;
