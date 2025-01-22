@@ -65,8 +65,8 @@ body {
     margin-top: 20px; /* Adjust as needed to place below the buttons */
     display: flex;
     justify-content: center;
+    align-items: center;
     list-style: none;
-    text-align: center;
     padding: 10px 0;
     height: auto;
     box-sizing: border-box;
