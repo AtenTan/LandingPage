@@ -13,6 +13,9 @@ body {
     background: linear-gradient(180deg, #fdfcfb 20%, #e2d1c3 100%);
     padding: 0 10px;
     box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: auto; /* Add this line */
 }
 
 .message h1 {
