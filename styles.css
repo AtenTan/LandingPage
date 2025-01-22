@@ -67,7 +67,7 @@ body {
 /* MENU DESIGN */
 .menu {
     position: absolute; /* Change to absolute */
-    top: 900px; /* Adjust as needed to place below the word HELLO! */
+    top: 500px; /* Adjust as needed to place below the word HELLO! */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
