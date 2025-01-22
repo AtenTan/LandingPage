@@ -61,8 +61,8 @@ body {
 
 /* MENU DESIGN */
 .menu {
-    position: relative; /* Change to relative */
-    bottom: 0; /* Adjust as needed to place above the footer */
+    position: fixed; /* Change to fixed */
+    bottom: 150px; /* Adjust as needed to place above the footer */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
