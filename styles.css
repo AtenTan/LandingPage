@@ -13,6 +13,8 @@ body {
     background: linear-gradient(180deg, #fdfcfb 20%, #e2d1c3 100%);
     padding: 0 10px;
     box-sizing: border-box;
+    overflow-y: auto; /* Add this line */
+    overflow-x: auto; /* Add this line */
 }
 
 .message h1 {
@@ -128,7 +130,7 @@ footer {
 .footertext h3 {
     font-size: 17px;
     color: #634c3a;
-    font-weight: 0;
+    font-weight: normal;
 }
 
 .wave {
@@ -210,7 +212,7 @@ footer {
     .menu {
         flex-wrap: nowrap;
         overflow-x: auto;
-        padding: 5px;
+
     }
     .menu__item {
         margin-bottom: 10px;
@@ -237,7 +239,7 @@ footer {
     .menu {
         flex-wrap: nowrap;
         overflow-x: auto;
-        padding: 5px;
+
     }
     .menu__item {
         margin-bottom: 10px;
