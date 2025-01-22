@@ -92,24 +92,14 @@ body {
     z-index: 2; /* Ensure text is above other elements */
 }
 
-.menu__link:hover::before {
+.menu__link:hover {
     width: 80px; /* Adjust size as needed */
     height: 30px; /* Adjust size as needed */
     top: 50%; /* Ensure it stays centered */
     left: 50%; /* Ensure it stays centered */
+    color: white;
+    opacity: 1;
 }
-/* FOOTER DESIGN */
-footer {
-    background-color: #a78f7c;
-    width: 100%;
-    position: fixed; /* Change to fixed */
-    bottom: 0;
-    left: 0;
-    z-index: 1000; /* Ensure footer is above other elements */
-}
-
-
-
 
 @media (max-width: 768px) {
     .menu {
@@ -131,10 +121,17 @@ footer {
     }
 }
 
-.menu__link:hover {
-    color: white;
-    opacity: 1;
+
+/* FOOTER DESIGN */
+footer {
+    background-color: #a78f7c;
+    width: 100%;
+    position: fixed; /* Change to fixed */
+    bottom: 0;
+    left: 0;
+    z-index: 1000; /* Ensure footer is above other elements */
 }
+
 
 .wave {
     position: absolute;
