@@ -63,13 +63,14 @@ body {
 footer {
     background-color: #a78f7c;
     width: 100%;
-    position: absolute;
+    position: fixed; /* Change to fixed */
     bottom: 0;
     left: 0;
+    z-index: 1000; /* Ensure footer is above other elements */
 }
 
 .menu {
-    position: absolute;
+    position: fixed; /* Change to fixed */
     bottom: 85px; /* Adjust as needed to place above the footer */
     left: 50%;
     transform: translateX(-50%);
@@ -81,6 +82,7 @@ footer {
     margin: 0;
     height: 10vh;
     box-sizing: border-box;
+    z-index: 999; /* Ensure menu is above other elements but below footer */
 }
 
 .menu__item {
