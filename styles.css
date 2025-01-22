@@ -126,6 +126,7 @@ footer {
 }
 
 .footertext h3 {
+    font-size: 17px;
     color: #634c3a;
 }
 
@@ -208,6 +209,7 @@ footer {
     .menu {
         flex-wrap: nowrap;
         overflow-x: auto;
+        padding: 10px;
     }
     .menu__item {
         margin-bottom: 10px;
@@ -234,6 +236,7 @@ footer {
     .menu {
         flex-wrap: nowrap;
         overflow-x: auto;
+        padding: 10px;
     }
     .menu__item {
         margin-bottom: 10px;
