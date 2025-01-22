@@ -15,7 +15,6 @@ body {
     box-sizing: border-box;
     overflow-y: hidden;
     overflow-x: hidden;
-    height: auto; /* Add this line */
 }
 
 .message h1 {
