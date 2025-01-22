@@ -110,7 +110,7 @@ body {
 }
 
 .menu__link:hover {
-    color: #a78f7c;
+    color: #967c67;
     opacity: 1;
 }
 
@@ -125,6 +125,9 @@ footer {
     z-index: 1000; /* Ensure footer is above other elements */
 }
 
+.message h3 {
+    color: #333333;
+}
 
 .wave {
     position: absolute;
