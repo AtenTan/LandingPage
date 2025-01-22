@@ -35,4 +35,3 @@ function openLinks6() {
       window.open('https://www.linkedin.com/in/atintan/', '_blank');
     }, 300);
   }
-

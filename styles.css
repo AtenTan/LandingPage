@@ -37,6 +37,10 @@ body {
     justify-content: center;
 }
 
+.message h3 {
+    color: #967c67;
+}
+
 .button {
     display: inline-block;
     padding: 15px 30px;
@@ -123,10 +127,6 @@ footer {
     bottom: 0;
     left: 0;
     z-index: 1000; /* Ensure footer is above other elements */
-}
-
-.message h3 {
-    color: #967c67;
 }
 
 .wave {
