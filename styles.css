@@ -58,29 +58,6 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-
-/* Ensure the parent container has position: relative */
-.parent-container {
-    position: relative;
-}
-
-/* MENU DESIGN */
-.menu {
-    position: absolute; /* Change to absolute */
-    top: 500px; /* Adjust as needed to place below the word HELLO! */
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    text-align: center;
-    padding: 10px 0;
-    margin: 0; /* Remove margin */
-    height: auto;
-    box-sizing: border-box;
-    z-index: 999; /* Ensure menu is above other elements but below footer */
-}
-
 .menu__item {
     margin: 0 15px;
     position: relative;
