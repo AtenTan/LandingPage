@@ -93,12 +93,9 @@ body {
 }
 
 .menu__link:hover {
-    width: 80px; /* Adjust size as needed */
-    height: 30px; /* Adjust size as needed */
-    top: 50%; /* Ensure it stays centered */
-    left: 50%; /* Ensure it stays centered */
     color: white;
     opacity: 1;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow effect */
 }
 
 @media (max-width: 768px) {
