@@ -100,7 +100,11 @@ body {
 
 @media (max-width: 768px) {
     .menu {
-        margin-top: 20px; /* Adjust as needed for smaller screens */
+        position: absolute; /* Change to absolute */
+        top: 100px; /* Adjust as needed to place above the footer */
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 0; /* Remove margin-top */
     }
 
     .menu__link {
@@ -110,7 +114,11 @@ body {
 
 @media (max-width: 480px) {
     .menu {
-        margin-top: 15px; /* Adjust as needed for smaller screens */
+        position: absolute; /* Change to absolute */
+        top: 80px; /* Adjust as needed to place above the footer */
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 0; /* Remove margin-top */
     }
 
     .menu__link {
