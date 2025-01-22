@@ -62,7 +62,7 @@ body {
 /* MENU DESIGN */
 .menu {
     position: fixed; /* Change to fixed */
-    top: 50px; /* Adjust as needed to place below the buttons */
+    top: 250px; /* Adjust as needed to place below the buttons */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
