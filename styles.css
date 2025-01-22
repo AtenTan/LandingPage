@@ -103,7 +103,7 @@ body {
 
 @media (max-width: 768px) {
     .menu {
-        bottom: 0; /* Adjust as needed for smaller screens */
+        bottom: 40px; /* Adjust as needed for smaller screens */
     }
 
     .menu__link {
@@ -113,7 +113,7 @@ body {
 
 @media (max-width: 480px) {
     .menu {
-        bottom: 0; /* Adjust as needed for smaller screens */
+        bottom: 30px; /* Adjust as needed for smaller screens */
     }
 
     .menu__link {
