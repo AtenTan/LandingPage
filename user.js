@@ -35,3 +35,8 @@ function openLinks6() {
       window.open('https://www.linkedin.com/in/atintan/', '_blank');
     }, 300);
   }
+
+  // hide the loading screen when the page is fully loaded
+  window.addEventListener('load', function() {
+    document.getElementById('loading-screen').style.display = 'none';
+  });
